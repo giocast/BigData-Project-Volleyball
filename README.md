@@ -10,7 +10,7 @@ From the scout files, containing a lot of information of the match related to te
 
 # Machine Learning approach (designed using MLlib Apache Spark's module - sklearn module and Python)
 
-Given six fields of the Volleyball dataset, related to Attack, Block and Service percentage for two teams in a game, the Machine Learning algorithm has to predict the type of final ressult (e.g. Match finished as 3-0 for the first team). 
+Given six fields of the Volleyball dataset, related to Attack, Block and Service percentage for two teams in a game, the Machine Learning algorithm has to predict the type of final result (e.g. Match finished as 3-0 for the first team). 
 The algorithm has to be trained using several match data. The possible strategy to implement for this scope is represented by a Multinomial Logistic Regression: 
 the target output value (result) can assume more than two value (six result at least, considering the possibility of producing a dataset with more detailed scores, e.g. distinguish a 3-0 match with low gap between teams points from a 3-0 match with a huge predominance of a team on the other).
 The Multinomial Logistic Regression helps correlating a single field value with more than two fields (six in this case).
